@@ -1,0 +1,221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EB68F3F16BBA4D600BDB88B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5EB68F3E16BBA4D600BDB88B /* main.c */; };
+		5EB68F4116BBA4D600BDB88B /* distributed_computing__genious_.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5EB68F4016BBA4D600BDB88B /* distributed_computing__genious_.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5EB68F3916BBA4D600BDB88B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				5EB68F4116BBA4D600BDB88B /* distributed_computing__genious_.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5EB68F3B16BBA4D600BDB88B /* distributed_computing [genious] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "distributed_computing [genious]"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB68F3E16BBA4D600BDB88B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5EB68F4016BBA4D600BDB88B /* distributed_computing__genious_.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = distributed_computing__genious_.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EB68F3816BBA4D600BDB88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EB68F3216BBA4D600BDB88B = {
+			isa = PBXGroup;
+			children = (
+				5EB68F3D16BBA4D600BDB88B /* distributed_computing [genious] */,
+				5EB68F3C16BBA4D600BDB88B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EB68F3C16BBA4D600BDB88B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EB68F3B16BBA4D600BDB88B /* distributed_computing [genious] */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EB68F3D16BBA4D600BDB88B /* distributed_computing [genious] */ = {
+			isa = PBXGroup;
+			children = (
+				5EB68F3E16BBA4D600BDB88B /* main.c */,
+				5EB68F4016BBA4D600BDB88B /* distributed_computing__genious_.1 */,
+			);
+			path = "distributed_computing [genious]";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EB68F3A16BBA4D600BDB88B /* distributed_computing [genious] */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB68F4416BBA4D600BDB88B /* Build configuration list for PBXNativeTarget "distributed_computing [genious]" */;
+			buildPhases = (
+				5EB68F3716BBA4D600BDB88B /* Sources */,
+				5EB68F3816BBA4D600BDB88B /* Frameworks */,
+				5EB68F3916BBA4D600BDB88B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "distributed_computing [genious]";
+			productName = "distributed_computing [genious]";
+			productReference = 5EB68F3B16BBA4D600BDB88B /* distributed_computing [genious] */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EB68F3316BBA4D600BDB88B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = sonnet;
+			};
+			buildConfigurationList = 5EB68F3616BBA4D600BDB88B /* Build configuration list for PBXProject "distributed_computing [genious]" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5EB68F3216BBA4D600BDB88B;
+			productRefGroup = 5EB68F3C16BBA4D600BDB88B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EB68F3A16BBA4D600BDB88B /* distributed_computing [genious] */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EB68F3716BBA4D600BDB88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB68F3F16BBA4D600BDB88B /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5EB68F4216BBA4D600BDB88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5EB68F4316BBA4D600BDB88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5EB68F4516BBA4D600BDB88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5EB68F4616BBA4D600BDB88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EB68F3616BBA4D600BDB88B /* Build configuration list for PBXProject "distributed_computing [genious]" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB68F4216BBA4D600BDB88B /* Debug */,
+				5EB68F4316BBA4D600BDB88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB68F4416BBA4D600BDB88B /* Build configuration list for PBXNativeTarget "distributed_computing [genious]" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB68F4516BBA4D600BDB88B /* Debug */,
+				5EB68F4616BBA4D600BDB88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EB68F3316BBA4D600BDB88B /* Project object */;
+}

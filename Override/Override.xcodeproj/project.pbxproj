@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E5A6EB116BA324C00ACBAA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5A6EB016BA324C00ACBAA1 /* Foundation.framework */; };
+		5E5A6EB416BA324C00ACBAA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A6EB316BA324C00ACBAA1 /* main.m */; };
+		5E5A6EB816BA324C00ACBAA1 /* Override.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E5A6EB716BA324C00ACBAA1 /* Override.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5E5A6EAB16BA324C00ACBAA1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				5E5A6EB816BA324C00ACBAA1 /* Override.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5E5A6EAD16BA324C00ACBAA1 /* Override */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Override; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5A6EB016BA324C00ACBAA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E5A6EB316BA324C00ACBAA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E5A6EB616BA324C00ACBAA1 /* Override-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Override-Prefix.pch"; sourceTree = "<group>"; };
+		5E5A6EB716BA324C00ACBAA1 /* Override.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Override.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E5A6EAA16BA324C00ACBAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5A6EB116BA324C00ACBAA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E5A6EA416BA324C00ACBAA1 = {
+			isa = PBXGroup;
+			children = (
+				5E5A6EB216BA324C00ACBAA1 /* Override */,
+				5E5A6EAF16BA324C00ACBAA1 /* Frameworks */,
+				5E5A6EAE16BA324C00ACBAA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E5A6EAE16BA324C00ACBAA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A6EAD16BA324C00ACBAA1 /* Override */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E5A6EAF16BA324C00ACBAA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A6EB016BA324C00ACBAA1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E5A6EB216BA324C00ACBAA1 /* Override */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A6EB316BA324C00ACBAA1 /* main.m */,
+				5E5A6EB716BA324C00ACBAA1 /* Override.1 */,
+				5E5A6EB516BA324C00ACBAA1 /* Supporting Files */,
+			);
+			path = Override;
+			sourceTree = "<group>";
+		};
+		5E5A6EB516BA324C00ACBAA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A6EB616BA324C00ACBAA1 /* Override-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E5A6EAC16BA324C00ACBAA1 /* Override */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5A6EBB16BA324C00ACBAA1 /* Build configuration list for PBXNativeTarget "Override" */;
+			buildPhases = (
+				5E5A6EA916BA324C00ACBAA1 /* Sources */,
+				5E5A6EAA16BA324C00ACBAA1 /* Frameworks */,
+				5E5A6EAB16BA324C00ACBAA1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Override;
+			productName = Override;
+			productReference = 5E5A6EAD16BA324C00ACBAA1 /* Override */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E5A6EA516BA324C00ACBAA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = sonnet;
+			};
+			buildConfigurationList = 5E5A6EA816BA324C00ACBAA1 /* Build configuration list for PBXProject "Override" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5E5A6EA416BA324C00ACBAA1;
+			productRefGroup = 5E5A6EAE16BA324C00ACBAA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E5A6EAC16BA324C00ACBAA1 /* Override */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E5A6EA916BA324C00ACBAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5A6EB416BA324C00ACBAA1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5E5A6EB916BA324C00ACBAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5E5A6EBA16BA324C00ACBAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5E5A6EBC16BA324C00ACBAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Override/Override-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E5A6EBD16BA324C00ACBAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Override/Override-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E5A6EA816BA324C00ACBAA1 /* Build configuration list for PBXProject "Override" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5A6EB916BA324C00ACBAA1 /* Debug */,
+				5E5A6EBA16BA324C00ACBAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E5A6EBB16BA324C00ACBAA1 /* Build configuration list for PBXNativeTarget "Override" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5A6EBC16BA324C00ACBAA1 /* Debug */,
+				5E5A6EBD16BA324C00ACBAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E5A6EA516BA324C00ACBAA1 /* Project object */;
+}
